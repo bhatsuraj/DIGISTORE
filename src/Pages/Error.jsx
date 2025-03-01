@@ -21,19 +21,31 @@ export default function Error() {
           padding: "2rem",
           backgroundColor: "#fff",
           boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
-          borderRadius: "8px",
+          borderRadius: "12px",
+          maxWidth: "500px",
+          width: "100%",
         }}
       >
+        {/* Image Section */}
+        <Box
+          component="img"
+          src="./error.jpg" // Replace with your image URL
+          alt="Error Illustration"
+          sx={{
+            width: "100%",
+            maxHeight: "200px",
+            objectFit: "contain",
+            mb: 2,
+          }}
+        />
+
         <Typography
           variant="h3"
           sx={{ fontWeight: "bold", color: "#ff4c4c", mb: 2 }}
         >
           Oops!
         </Typography>
-        <Typography
-          variant="h5"
-          sx={{ color: "#333", mb: 2 }}
-        >
+        <Typography variant="h5" sx={{ color: "#333", mb: 2 }}>
           Something went wrong.
         </Typography>
         <Typography variant="body1" sx={{ color: "#666", mb: 3 }}>
