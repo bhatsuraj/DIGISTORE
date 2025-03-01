@@ -30,7 +30,7 @@ export default function Error() {
         <Box
           component="img"
           src="./error.jpg" // Replace with your image URL
-          alt="Error Illustration"
+          alt="hello git new branch"
           sx={{
             width: "100%",
             maxHeight: "200px",
